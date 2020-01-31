@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react";
 import axios from 'axios';
+import { Route } from 'react-router-dom';
 import { useParams } from 'react-router-dom';
 import CharacterCard from './CharacterCard';
+
 
 export default function CharacterList() {
   // TODO: Add useState to track data from useEffect
@@ -29,13 +31,13 @@ const {id} = useParams();
 
  
     return (
-        <div>
+        <Route exact path="/CharacterList">
             
                 {character.map((character) => {
-                    console.log('map', character);
+                    // console.log('map', character);
                     return <CharacterCard character={character} />
                 })}
                 
                 
-          </div>
+          </Route>
 )}
