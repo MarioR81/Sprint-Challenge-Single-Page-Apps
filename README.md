@@ -27,7 +27,7 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ]  Explain benefit(s) using `client-side routing`?
 
-> Answer:
+> Answer: Client side routing First major benifit is that the browser only has to request the page from the server once, then the rest of the navigating can be proformed inside the already rendered browser.  
 
 ## Project Set Up
 
