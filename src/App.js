@@ -16,6 +16,9 @@ export default function App() {
       <div>
       <Route exact path="/CharacterList"><CharacterList/></Route>
       </div>
+      <div>
+      <Route exact path="/SearchForm"><CharacterList/></Route>
+      </div>
     </main>
   );
 }
